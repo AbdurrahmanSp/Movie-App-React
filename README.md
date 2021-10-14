@@ -1,3 +1,18 @@
+# Movie App
+
+## Built With
+- ReactJS
+- The Movie Database API
+
+### Screenshoots
+<img width="746" alt="chrome_7PfzRf0lJo" src="https://user-images.githubusercontent.com/72163962/137350520-28c91ed0-0bb4-4cd2-bd4c-09d69725b7a2.png">
+<img width="960" alt="chrome_DQenb54nZR" src="https://user-images.githubusercontent.com/72163962/137350601-5c6b9b7c-ed83-4474-9cf3-03e577650c3f.png">
+![chrome_P4BuU6zeY9](https://user-images.githubusercontent.com/72163962/137350641-811c4374-fdd6-4edc-aee3-bd0a081be023.jpg)
+<img width="615" alt="chrome_7apUXVkWly" src="https://user-images.githubusercontent.com/72163962/137350652-2ff3596e-c0ab-45fc-9cde-694c973ac447.png">
+<img width="615" alt="chrome_bWkY7P8HUS" src="https://user-images.githubusercontent.com/72163962/137350662-e75b8221-1d0d-4a43-b70a-513d59e27a0d.png">
+<img width="615" alt="chrome_7apUXVkWly" src="https://user-images.githubusercontent.com/72163962/137350668-42986cc0-1002-4d7a-b489-c825a49643b3.png">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
