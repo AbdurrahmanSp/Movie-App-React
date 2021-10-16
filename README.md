@@ -4,7 +4,7 @@
 - ReactJS
 - The Movie Database API
 
-### Screenshoots
+### Screenshots
 <img width="746" alt="chrome_7PfzRf0lJo" src="https://user-images.githubusercontent.com/72163962/137352495-f447fdfb-788a-4616-946a-480d6b8ea4ce.png">
 <img width="746" alt="chrome_a7IBUk331M" src="https://user-images.githubusercontent.com/72163962/137352901-07bd69fc-7754-412f-8186-6eadc334110a.jpg">
 <img width="746" alt="chrome_7AfwbHDUaL" src="https://user-images.githubusercontent.com/72163962/137354016-419d5da7-46e2-46a9-82af-065a993ccff3.jpg>
