@@ -6,11 +6,11 @@
 - Reusable functions
 - Folder structure (API, components, views) 
 
-## Built With
+### Built With
 - ReactJS
 - The Movie Database API
 
-### Available commands:
+## Available commands:
 
 Install packages
 
