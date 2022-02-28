@@ -8,6 +8,7 @@
 
 ### Built With
 - ReactJS
+- Styled Components
 - The Movie Database API
 
 ## Available commands:
