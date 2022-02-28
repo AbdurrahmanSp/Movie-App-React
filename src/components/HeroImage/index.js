@@ -1,6 +1,5 @@
 import react from "react";
 import PropTypes from 'prop-types';
-import { Link } from "react-router-dom";
 // styles
 import { Wrapper, Content, Text } from "./HeroImage.style";
 

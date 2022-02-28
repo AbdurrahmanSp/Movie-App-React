@@ -11,8 +11,6 @@ import { NotFound } from 'http-errors';
 // context
 import UserProvider from './contex';
 
-// const App = () => <div>Start here!</div>
-
 const App = () => (
 
     <Router>

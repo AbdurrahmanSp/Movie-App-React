@@ -7,8 +7,7 @@ const UserProvider = ({ children }) => {
 
     return (
         <Context.Provider value={[state, useState]}>{children}</Context.Provider>
-    )
-
+    );
 }
 
 export default UserProvider;

@@ -11,7 +11,6 @@ import MovieInfoBar from './MovieInfoBar';
 import Actor from './Actor';
 // hook
 import { useMovieFetch } from '../hooks/useMovieFetch';
-
 // image
 import NoImage from '../images/no_image.jpg';
 
@@ -50,4 +49,4 @@ const Movie = () => {
     );
 }
 
-export default Movie
+export default Movie;

@@ -35,7 +35,7 @@ export const useHomeFetch = () => {
         }
         setLoading(false);
     };
-
+    
     // Search and initial
     useEffect(() => {
         if (!searchTerm) {
