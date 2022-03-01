@@ -17,6 +17,8 @@ export const useHomeFetch = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
     const [isLoadingMore, setIsLoadingMore] = useState(false);
+    const [randomMovie, setRandomMovie] = useState(0);
+
 
     const fetchMovies = async (page, searchTerm = '') => {
         try {
@@ -35,19 +37,17 @@ export const useHomeFetch = () => {
         }
         setLoading(false);
     };
-    
+
     // Search and initial
     useEffect(() => {
         if (!searchTerm) {
             const sessionState = isPersistedState('homeState');
 
             if (sessionState) {
-                console.log('Grabbing from sessionStorage');
                 setState(sessionState);
                 return;
             }
         }
-        console.log('Grabbing from API');
         setState(initialState);
         fetchMovies(1, searchTerm);
     }, [searchTerm]);
@@ -60,10 +60,25 @@ export const useHomeFetch = () => {
         setIsLoadingMore(false);
     }, [isLoadingMore, searchTerm, state.page]);
 
-    // Write to sessionStorage
+    // Interval random movie
     useEffect(() => {
-        if (!searchTerm) sessionStorage.setItem('homeState', JSON.stringify(state));
-    }, [searchTerm, state]);
+        const deley = 7000;
 
-    return { state, loading, error, searchTerm, setSearchTerm, setIsLoadingMore };
+        const interval = setInterval(() => {
+            const randomMovie = Math.floor(Math.random() * state.results.length);
+            setRandomMovie(randomMovie);
+        }, deley);
+
+        return () => clearInterval(interval);
+    }, [state]);
+
+    return {
+        state,
+        loading,
+        error,
+        searchTerm,
+        randomMovie,
+        setSearchTerm,
+        setIsLoadingMore
+    };
 };

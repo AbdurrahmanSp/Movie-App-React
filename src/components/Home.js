@@ -19,11 +19,10 @@ const Home = () => {
         loading,
         error,
         searchTerm,
+        randomMovie,
         setSearchTerm,
         setIsLoadingMore
     } = useHomeFetch();
-
-    const randomMovie = Math.floor(Math.random() * state.results.length);
 
     if (error) return <div>Opss, something is went wrong ...</div>
 

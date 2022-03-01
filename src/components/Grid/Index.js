@@ -14,5 +14,4 @@ Grid.propTypes = {
     header: PropTypes.string,
 };
   
-
 export default Grid;

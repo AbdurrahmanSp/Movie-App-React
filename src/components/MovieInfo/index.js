@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from "prop-types";
-
 // component
 import Thumb from '../Thumb';
 // config

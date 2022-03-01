@@ -18,6 +18,4 @@ export const Image = styled.img`
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-
-
 `;
