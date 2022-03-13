@@ -50,5 +50,7 @@ export const useMovieFetch = movieId => {
         sessionStorage.setItem(movieId, JSON.stringify(state));
     }, [movieId, state]);
 
+    console.log(state);
+
     return { state, loading, error };
 };

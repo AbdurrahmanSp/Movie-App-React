@@ -22,6 +22,7 @@ const Movie = () => {
     if (loading) return <Spinner />
     if (error) return <div>Oops, something went wrong...</div>
 
+
     return (
         <>
             <BreadCrumb movieTitle={movie.original_title} />
