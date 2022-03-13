@@ -5,7 +5,7 @@
 - Reusable components
 - Reusable functions
 - Folder structure (API, components, views) 
-- Respoinsive view (Desktop, Tablet, Mobile)
+- Responsive view (Desktop, Tablet, Mobile)
 
 ### Built With
 - ReactJS
