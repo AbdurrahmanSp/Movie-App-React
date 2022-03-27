@@ -8,11 +8,12 @@
 - Responsive view (Desktop, Tablet, Mobile)
 
 ### Built With
+
 - ReactJS
 - Styled Components
 - The Movie Database API
 
-## Available commands:
+### Available commands:
 
 Install packages
 
